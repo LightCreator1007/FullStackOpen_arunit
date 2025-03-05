@@ -33,5 +33,5 @@ activate server
 server-->>browser: the Json file having the data
 deactivate server
 
-Note right of browser: This new note is not stored in the database and is temporary, if we reload the page this change will be gone.
+Note right of browser: This new note is not stored in the database and is temporary, if we restart the server this change will be gone.
 ```
