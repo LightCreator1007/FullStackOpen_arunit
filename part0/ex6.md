@@ -36,7 +36,7 @@ sequenceDiagram
     server->>browser: new_note_spa
     deactivate server
 
-    Note left of server: the new json object is returned to the browser with a 201 created code, where the event handler must render it.
+    Note left of server: the server returns to the browser a 201 created code.
 
     
 
